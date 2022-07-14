@@ -1,0 +1,12 @@
+[core]
+	editor = \"C:\\Users\\mai\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Maiacandelaria
+	email = 104907440+Maiacandelaria@users.noreply.github.com
+[safe]
+	directory = H:/programar
